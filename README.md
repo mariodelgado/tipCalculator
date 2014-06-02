@@ -3,7 +3,7 @@ tipCalculator
 
 An app that allows you to split your bill!
 
-If simulator build does not run, Just run a build from xcode.
+If simulator build does not run, just run a build from Xcode.
 
 
 Todo List:
