@@ -4,4 +4,4 @@ tipCalculator
 An app that allows you to split your bill!
 
 
-![My image](mariodelgado.github.com/tipCalculator/screenshot.png)
+![My image](github.com/mariodelgado/tipCalculator/master/screenshot.png)
