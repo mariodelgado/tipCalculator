@@ -19,6 +19,8 @@
 		FE0E93AA193BE9B600820DDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0E9392193BE9B600820DDA /* UIKit.framework */; };
 		FE0E93B2193BE9B600820DDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE0E93B0193BE9B600820DDA /* InfoPlist.strings */; };
 		FE0E93B4193BE9B600820DDA /* tipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0E93B3193BE9B600820DDA /* tipCalculatorTests.m */; };
+		FE0E93C0193BE9DB00820DDA /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0E93BE193BE9DB00820DDA /* TipViewController.m */; };
+		FE0E93C1193BE9DB00820DDA /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE0E93BF193BE9DB00820DDA /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		FE0E93AF193BE9B600820DDA /* tipCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		FE0E93B1193BE9B600820DDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE0E93B3193BE9B600820DDA /* tipCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipCalculatorTests.m; sourceTree = "<group>"; };
+		FE0E93BD193BE9DB00820DDA /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		FE0E93BE193BE9DB00820DDA /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		FE0E93BF193BE9DB00820DDA /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				FE0E939E193BE9B600820DDA /* AppDelegate.m */,
 				FE0E93A0193BE9B600820DDA /* Images.xcassets */,
 				FE0E9395193BE9B600820DDA /* Supporting Files */,
+				FE0E93BD193BE9DB00820DDA /* TipViewController.h */,
+				FE0E93BE193BE9DB00820DDA /* TipViewController.m */,
+				FE0E93BF193BE9DB00820DDA /* TipViewController.xib */,
 			);
 			path = tipCalculator;
 			sourceTree = "<group>";
@@ -202,6 +210,12 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				da,
+				es,
+				pt,
+				"ru-RU",
+				ru,
+				sv,
 			);
 			mainGroup = FE0E9382193BE9B600820DDA;
 			productRefGroup = FE0E938C193BE9B600820DDA /* Products */;
@@ -219,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0E93C1193BE9DB00820DDA /* TipViewController.xib in Resources */,
 				FE0E9399193BE9B600820DDA /* InfoPlist.strings in Resources */,
 				FE0E93A1193BE9B600820DDA /* Images.xcassets in Resources */,
 			);
@@ -240,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0E939F193BE9B600820DDA /* AppDelegate.m in Sources */,
+				FE0E93C0193BE9DB00820DDA /* TipViewController.m in Sources */,
 				FE0E939B193BE9B600820DDA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +455,7 @@
 				FE0E93B9193BE9B600820DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE0E93BA193BE9B600820DDA /* Build configuration list for PBXNativeTarget "tipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +464,7 @@
 				FE0E93BC193BE9B600820DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
