@@ -10,7 +10,7 @@ Todo List:
 ---
 
 - Update initial UITextField to reflect currency-based input 
-http://stackoverflow.com/questions/21078572/format-a-uitextfield-for-currency
+(http://stackoverflow.com/questions/21078572/format-a-uitextfield-for-currency)
 
 
 Screenshot
